@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTX Performance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <div class="container-fluid bg-black">
+        <div class = "row">
+            <div class = "col-sm-12 bg-white">   <!--Header-->
+                <p id = 'nine'>RTX 3070, 3080 Performance</p>
+            </div>
+        </div>
+
+        <div class = "row" >
+            <div class = "col-sm-4 bg-black" >  <!--image 3070-->
+                <img src = "p1.png" class = 'img-fluid'  width="100%" height="auto"  >
+                <br>
+                <p id = 'five'>RTX 3070</p>
+            </div>
+
+            <div class = "col-sm-4 bg-black"> <!--image 3080-->
+                <img src = "p2.png" class = 'img-fluid' width="100%" height="auto">
+                <br>
+                <p id = 'five'>RTX 3080</p>
+            </div>
+
+            <div class = "col-sm-4 bg-black" style="border: 2px solid #76b900;">  <!--information-->
+                <p id = 'six'>RTX Information</p>
+                <p id = 'seven'>Only NVIDIA’s RTX platform includes dedicated RT Cores for ray tracing and Tensor Cores for AI that enable groundbreaking technologies at breakthrough speed. Experience today’s biggest blockbusters like never before. RTX. It’s On.</p>
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class = "col-sm-12 bg-black">  <!--bench hardware-->
+                <br>
+                <p id = "one">Benchmark Hardware</p>
+                <br>
+                <ol>
+                    <li>CPU: AMD Ryzen 7 5800x</li>
+                    <li>RAM: 16GB DDR4 3200mhz</li>
+                    <li>SSD: 1TB 940 pro Samsung</li>
+                    <li>MOTHERBOARD: Aorus Motherboard B450</li>
+                    <li>PSU: Corsair RM850X plus gold </li>
+                </ol>
+            </div>
+        </div>
+
+    <div class="container-fluid bg-black">
+        <div class = "row justify-content-center" >
+            <div class = "col-sm">  <!--Table-->
+              <p id = 'eight'>RESULTS</p>
+                <div class="table-responsive">
+                    <table class="table">
+                     <tr>
+                        <th>Games</th>
+                        <th>1080P LOW  </th>
+                        <th>1080 ULTRA</th>
+                        <th>1440P LOW</th>
+                        <th>1440p ULTRA</th>
+                        <th>4K LOW</th>
+                        <th>4K ULTRA</th>
+                      </tr>
+                      <tr>
+                        <td>Warzone</td>
+                        <td id = 'w1'></td> 
+                        <td id = 'w2'></td>
+                        <td id = 'w3'></td> 
+                        <td id = 'w4'></td>
+                        <td id = 'w5'></td> 
+                        <td id = 'w6'></td>
+                      </tr>
+                      <tr>
+                        <td>Valorant</td>
+                        <td id = 'v1'></td> 
+                        <td id = 'v2'></td>
+                        <td id = 'v3'></td> 
+                        <td id = 'v4'></td>
+                        <td id = 'v5'></td> 
+                        <td id = 'v6'></td>
+                      </tr>
+                      <tr>
+                        <td>CS:GO</td>
+                        <td id = 'c1'></td> 
+                        <td id = 'c2'></td>
+                        <td id = 'c3'></td> 
+                        <td id = 'c4'></td>
+                        <td id = 'c5'></td> 
+                        <td id = 'c6'></td>
+                      </tr>
+                      <tr>
+                        <td>Shadow of the Tomb Raider</td>
+                        <td id = 't1'></td> 
+                        <td id = 't2'></td>
+                        <td id = 't3'></td> 
+                        <td id = 't4'></td>
+                        <td id = 't5'></td> 
+                        <td id = 't6'></td>
+                      </tr>
+                      <tr>
+                        <td>Assassin's Creed Valhalla</td>
+                        <td id = 'a1'></td> 
+                        <td id = 'a2'></td>
+                        <td id = 'a3'></td> 
+                        <td id = 'a4'></td>
+                        <td id = 'a5'></td> 
+                        <td id = 'a6'></td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+        </div>
+    </div>
+        <br>
+    
+        <div class = "row">
+            <div class = "col-lg-6  text-center bg-black"> <!--button 1-->
+                <button type="button" class="btn btn-primary" onclick="f1()">RTX 3070</button>
+            </div>
+            
+            <div class = "col-lg-6  text-center bg-black" > <!--button 2-->
+                <button type="button" class="btn btn-primary" ondblclick="f2()">RTX 3080</button>
+            </div>
+        </div>
+
+    
+    <br>
+    <br>
+    <p id = "two">Wanna get more information about NVIDIA ?</p>
+
+        <div class="container-fluid">
+            <form method="GET" action="#">
+                <div class = "form-control" style="background-color: black;" >
+                    
+                    <div class = "row">
+                        <div class = "col-sm">
+                            <input type = "text" class = "form-control" placeholder="Mail" id= "mail" name="mail">
+                            <br>
+                            <input type = "text" class = "form-control" placeholder="Favorite Game" id= "favgame" name="favgame">
+                            <br>
+                            <input type = "text" class = "form-control" placeholder="MNK or Controller " id= "mc" name="mc">
+                            <br>
+                        </div>
+                       
+                        <div class = "col-sm">
+                            <input type = "text" class = "form-control" placeholder="Your GPU (1080, 2060, 3070)" id= "gpu" name="gpu">
+                            <br>
+                            <input type = "text" class = "form-control" placeholder="Date (mm-dd-yyyy)" id= "date" name="date">
+                            <br>
+                            <input type = "text" class = "form-control" placeholder="Comments" id= "com" name="com">
+                        </div>
+                    </div>
+
+                    <br>
+                    
+                    <div class="row">
+                        <div class = "col justify-content-center">
+                            <input type="reset" class="btn btn-primary">
+                            <input type="submit" class="btn btn-primary">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <br>
+
+    <p id = "three"><a href="https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/"> Visit Nvidia official RTX 3070 site</a></p>
+    <p id = "three"><a href="https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080-3080ti/"> Visit Nvidia official RTX 3080 site</a></p>    
+       
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src = "js/script1.js"></script>
+
+    <br>
+   
+        <style>
+            
+  
+    
+        </style>
+
+</body>
+</html>
