@@ -1,83 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="shortcut icon" href="img/nvidia.png" type="image/png">
-        <title>Dukungan</title>
-        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    </head>
-      <body>
-        <!-- Example Code -->
-        <nav class="navbar navbar-dark bg-white p-2">
-          <div class="container-fluid">
-            <img src="img/nvidiawhite.jpg" alt="nvidia" style="width: 10%; margin-left: 10%;">
-          </div>
-        </nav>
-        <nav class="navbar navbar-expand-lg bg-black">
-            <img src="img/geforce.png" alt="geforce" style="width:10%; margin-left: 11%;">
-          <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#" style="color:grey;">HOME</a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu" >
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:grey;"> 
-                    PRODUK
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">KARTU GRAFIS</a>
-                        <ul class="dropdown-item" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="index.html">SERI RTX 30</a></li>
-                            <li><a class="dropdown-item" href="rtx3090.html">RTX 3090 Ti/3090</a></li>
-                            <li><a class="dropdown-item" href="rtx3080.html">RTX 3080 Ti/3080</a></li>
-                            <li><a class="dropdown-item" href="rtx3070.html">RTX 3070 Ti/3070</a></li>
-                            <li><a class="dropdown-item" href="rtx3060.html">RTX 3060 Ti/3060</a></li>
-                            <li><a class="dropdown-item" href="rtx3050.html">RTX 3050</a></li>
-                            <li><a class="dropdown-item" href="rtx20.html">SERI RTX 20</a></li>
-                            <li><a class="dropdown-item" href="rtx16.html">SERI GTX 16</a></li>
-                        </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:grey;">
-                    PERMAINAN & TEKNOLOGI
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="eight.html">8K HDR</a></li>
-                    <li><a class="dropdown-item" href="direxct.html">DIRECTX 12</a></li>
-                    <li><a class="dropdown-item" href="vr.html">VR</a></li>
-                    <li><a class="dropdown-item" href="sync.html">G-SYNC</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="dukungan.html" style="color:grey;">DUKUNGAN</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color:grey;" href="about.html">ABOUT</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: white; margin-left: 11%;"><b>GeForce Seri RTX 30</b> </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" href="spec.html" style="color: rgb(176, 174, 174);">SPESIFIKASI</a>
-                </div>
-              </div>
-            </div>
-          </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="img/nvidia.png" type="image/png">
+    <title>Header</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-white p-2">
+        <div class="container-fluid">
+          <img src="img/nvidiawhite.jpg" alt="nvidia" style="width: 10%; margin-left: 10%;">
+        </div>
+      </nav>
     
+      <nav class="navbar navbar-expand-lg bg-dark" id="menu">
+        <img src="img/geforce1.png" alt="geforce" style="width:10%; margin-left: 11%;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="color: grey;">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown" >
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: grey;">
+                  Produk Kartu Grafis
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                  <li><a class="dropdown-item" href="index.html">SERI RTX 30</a></li>
+                  <li><a class="dropdown-item" href="rtx3090.html">RTX 3090 Ti/3090</a></li>
+                  <li><a class="dropdown-item" href="rtx3080.html">RTX 3080 Ti/3080</a></li>
+                  <li><a class="dropdown-item" href="rtx3070.html">RTX 3070 Ti/3070</a></li>
+                  <li><a class="dropdown-item" href="rtx3060.html">RTX 3060 Ti/3060</a></li>
+                  <li><a class="dropdown-item" href="rtx3050.html">RTX 3050</a></li>
+                  <li><a class="dropdown-item" href="rtx20.html">SERI RTX 20</a></li>
+                  <li><a class="dropdown-item" href="rtx16.html">SERI GTX 16</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: grey;">
+                  Permainan dan Teknologi
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="eight.html">8K HDR</a></li>
+                  <li><a class="dropdown-item" href="direxct.html">DIRECTX 12</a></li>
+                  <li><a class="dropdown-item" href="vr.html">VR</a></li>
+                  <li><a class="dropdown-item" href="sync.html">G-SYNC</a></li>
+                </ul>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link active" aria-current="page" href="dukungan.html" style="color: grey;">Dukungan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: grey;">About</a>
+              </li>
+              
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: white; margin-left: 11%;"><b>GeForce Seri RTX 30</b> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="spec.html" style="color: rgb(176, 174, 174);">SPESIFIKASI</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
